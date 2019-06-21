@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "qardio App" parallel="tests" verbose="1">
+	<test name="mobile Andriod qardio" group-by-instances="true" preserve-order="true" enabled="true">
+		<classes>
+		  	<class name="technicalassignment.challenge.AppTest" />		  	
+		</classes>
+	</test>
+</suite>
